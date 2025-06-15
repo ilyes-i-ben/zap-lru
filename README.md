@@ -1,6 +1,6 @@
 # zap-lru
 
-a small, clean LRU (least recently used) cache in python.
+Clean LRU (least recently used) cache in python.
 
 ## what's this?
 
