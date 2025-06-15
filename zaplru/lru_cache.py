@@ -53,7 +53,7 @@ class LRUCache:
         node = Node(key, value)
         self._add_node(node)
         self.cache[key] = node
-        # applying LRU policy here.
+        # applying LRU eviction policy here.
         if len(self.cache) > self.capacity:
             tail = self._pop_tail()
             del self.cache[tail.key]
